@@ -17,8 +17,8 @@ if (!defined("RWMB_URL")) {
 	require_once __DIR__."/ext/meta-box/meta-box.php";
 }
 
-$autoLoader=new datakpi\AutoLoader("kpiint");
-$autoLoader->addSourceTree(DATAKPI_PATH."/src");
+$autoLoader=new kpiint\AutoLoader("kpiint");
+$autoLoader->addSourceTree(KPIINT_PATH."/src");
 $autoLoader->register();
 
 kpiint\KpiIntegrationsPlugin::instance();
