@@ -11,6 +11,6 @@ class KpiIntegrationsPlugin extends Singleton {
 	 * Constructor.
 	 */
 	protected function __construct() {
-
+		IntegrationController::instance();
 	}
 }
